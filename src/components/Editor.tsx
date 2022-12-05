@@ -22,10 +22,9 @@ export function Editor(props: IEditorProps) {
       onChange={(evn) => setCode(evn.target.value)}
       padding={15}
       style={{
-        fontSize: 15,
+        fontSize: 13,
         backgroundColor: '#f5f5f5',
         width: '100%',
-        minWidth: 1200,
         minHeight: 300,
         fontFamily:
           'ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace',

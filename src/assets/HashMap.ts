@@ -6,6 +6,7 @@
 
 export const partialCode = `// 遍历
 
+
 // 记录元素出现的次数`;
 
 export const fullCode = `// 遍历

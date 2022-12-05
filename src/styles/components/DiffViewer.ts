@@ -12,6 +12,7 @@ export const useDiffViewer = makeStyles(() => ({
     alignItems: 'center',
     justifyContent: 'center',
     display: 'flex',
-    minWidth: 1200,
+    width: '100%',
+    fontSize: 13,
   },
 }));

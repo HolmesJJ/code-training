@@ -22,7 +22,7 @@ export function DiffViewer(props: IEditorProps) {
       <ReactDiffViewer
         oldValue={oldValue}
         newValue={newValue}
-        splitView={true}
+        splitView={false}
       />
     </div>
   );

@@ -13,6 +13,7 @@ export const useCodeEntry = makeStyles(() => ({
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column',
+    width: '100%',
   },
   buttonContainer: {
     display: 'flex',
@@ -24,7 +25,8 @@ export const useCodeEntry = makeStyles(() => ({
     marginTop: 20,
     marginLeft: 20,
     marginRight: 20,
+    marginBottom: 20,
     width: 130,
     height: 40,
-  }
+  },
 }));
