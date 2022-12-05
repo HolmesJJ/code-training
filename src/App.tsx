@@ -4,13 +4,13 @@
  * @file React Application Base
  */
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import { MainEntry, CodeEntry, MrqEntry } from 'scenes/';
 
 export function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MainEntry />}></Route>
         <Route
@@ -71,6 +71,6 @@ export function App() {
           element={<MrqEntry type={'BACKTRACKING'} />}
         ></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

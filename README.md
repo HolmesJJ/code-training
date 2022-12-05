@@ -1,4 +1,4 @@
-# CodeTraining :spiral_calendar:
+# CodeTraining :man_technologist: :woman_technologist:
 
 [![CI Status](https://github.com/HolmesJJ/code-training/actions/workflows/github-ci.yml/badge.svg)](https://github.com/HolmesJJ/code-training/actions)
 [![codecov](https://codecov.io/gh/HolmesJJ/code-training/branch/master/graph/badge.svg?token=cld6Y3ShRI)](https://codecov.io/gh/HolmesJJ/code-training)

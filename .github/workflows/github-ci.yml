@@ -46,6 +46,7 @@ jobs:
         if: runner.os == 'Linux'
         with:
           annotations: none
+          test-script: npm run test
 
       - name: Upload coverage report to Codecov
         uses: codecov/codecov-action@v2

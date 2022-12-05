@@ -23,4 +23,7 @@ module.exports = {
   transform: {
     ...tsjPreset.transform,
   },
+  transformIgnorePatterns: [
+    "/node_modules/(?!@uiw)/"
+  ]
 };

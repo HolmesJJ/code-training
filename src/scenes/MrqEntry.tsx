@@ -85,9 +85,6 @@ export function MrqEntry(props: IMrqEntryProps) {
     setExpectedCorrectOptions(expectedCorrectOptions);
   }, [type]);
 
-  console.log(isDone);
-  console.log(expectedCorrectOptions);
-
   const handleChangeCheckbox = (
     event: React.ChangeEvent<HTMLInputElement>,
     option: string,
